@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+/* utility styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.section-padding {
+  padding: 3rem 5rem;
+}
+.bg-overlay {
+  background-color: rgba(0, 0, 0);
+}
+/* navbar styles*/
+.navbar {
+  padding: 0 2rem;
+}
+.navbar-brand img {
+  width: 15rem;
+  overflow-y: hidden;
+}
+.navbar-light .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+/* header styles*/
+
+.header-content {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 5rem auto 1rem auto;
+  line-height: 2rem;
+}
+.header-content h1 {
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+.header-content h4 {
+  font-size: 1.2rem;
+  padding-bottom: 0.7rem;
+}
+.header-content h3 {
+  font-size: 1.6rem;
+  color: #d6d6d6;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.header-btn {
+  color: black;
+  font-size: 1.2rem;
+  background-color: #d6d6d6;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 1rem;
+  border: 2px solid #d6d6d6;
+  outline: none;
+  font-weight: 500;
+}
+
+@media (max-width: 950px) {
+  .header-content h1 {
+    font-size: 2.2rem;
+    padding-bottom: 0.7rem;
+  }
+  .header-content h4 {
+    font-size: 1.3rem;
+  }
+  .header-content h3 {
+    font-size: 1.4rem;
+
+    padding-bottom: 1.5rem;
+  }
+}
+@media (max-width: 750px) {
+  .header-content {
+    width: 100%;
+  }
+  .header-content h1 {
+    font-size: 1.8rem;
+    padding-bottom: 0.7rem;
+  }
+  .header-content h4 {
+    font-size: 1rem;
+  }
+
+  .header-content h3 {
+    font-size: 1.2rem;
+  }
+  .header-btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .header-content h1 {
+    font-size: 1.4rem;
+    padding-bottom: 0.7rem;
+  }
+  .header-content h4 {
+    font-size: 0.8rem;
+  }
+
+  .header-content h3 {
+    font-size: 1.1rem;
+  }
+  .header-btn {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+  }
+  .section-padding {
+    padding: 2rem 3rem;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-brand img {
+    width: 11rem;
+  }
+  .header-content h1 {
+    padding-bottom: 0.5rem;
+  }
+  .header-content h4 {
+    padding-bottom: 0.5rem;
+  }
+  .header-content h3 {
+    padding-bottom: 1.3rem;
+  }
+}
+
+/* statics styles*/
+.statics-content {
+  text-align: center;
+  color: black;
+}
+.statics-content h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.license-statement {
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
+}
+.counter-container{
+
+color:black;
+  margin-top: 3rem;
+}
+.number{
+  font-weight: bold;
+}
+.counter-container .title{
+font-size: 1.3rem;
+}
+@media (max-width: 550px) {
+  .statics-content h2 {
+    font-size: 1.6rem;
+  }
+  .license-statement{
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+/* does it work styles*/
+.does-it-work-container{
+  text-align:center;
+  color:white;
+  font-weight: bold;
+  
+}
+.compare-container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding:2rem 0;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.vs{
+  align-self: center;
+  font-size:6rem;
+}
+.does-it-work-container p{
+  font-size: 1.2rem;
+}
+@media (max-width: 850px) {
+  .compare-container{
+    font-size: 2.1rem;
+  }
+  .vs{
+    font-size:5rem;
+  }
+}
+@media (max-width: 670px) {
+  .compare-container{
+    font-size: 1.6rem;
+    padding:1rem 0;
+    line-height: 2rem;
+  }
+  .vs{
+    font-size:3.5rem;
+  }
+  .does-it-work-container p{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .does-it-work-container h1{
+    font-size: 1.4rem;
+  }
+  .does-it-work-container h2{
+    font-size: 1.2rem;
+  }
+  .compare-container{
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  .vs{
+    font-size:3rem;
+  }
+  .does-it-work-container p{
+    font-size: 0.8rem;
+  }
+}
+/* how it works styles*/
+.how-it-works-container{
+  text-align:center;
+  color:black;
+
+}
+.how-it-works-container h1{
+ font-size: 2rem;
+ font-weight: bold;
+}
+.how-it-works-steps{
+  padding-top: 2rem;
+}
+.how-it-works-step img{
+  width: 4.5rem;
+}
+.how-it-works-step p{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+@media (max-width: 550px) {
+  .how-it-works-container h1{
+    font-size: 1.5rem;
+   }
+   .how-it-works-container h2{
+    font-size: 1.2rem;
+   }
+   .how-it-works-step img{
+    width: 3.5rem;
+  }
+  .how-it-works-step p{
+    font-size: 1rem;
+  }
+}
+/* why us styles*/
+.why-us {
+  color: white;
+  text-align: center;
+}
+.why-us h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin:2rem 0 7rem 0;
+  overflow-y: hidden;
+}
+
+.benifit-content {
+  justify-content: space-around;
+  align-items: stretch;
+  display: flex;
+  padding-bottom: 3rem;
+}
+.benifit {
+  margin: 0 0 1rem 0;
+  width: 30%;
+}
+.benifit img{
+  width:3rem;
+}
+
+.benifit-content h2 {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 1rem 0;
+  overflow-y: hidden;
+}
+.benifit-content p {
+  font-size: 18px;
+  color: #d6d6d6;
+}
+@media (max-width: 1250px) {
+  .why-us h1 {
+    font-size: 2.5rem;
+  }
+
+  .benifit h2 {
+    font-size: 1.5rem;
+  }
+  .benifit p {
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+  }
+}
+@media (max-width: 767px) {
+  .benifit {
+    width: 100%;
+  }
+  .benifit-content {
+    flex-direction: column;
+  }
+  .why-us h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .benifit h2 {
+    font-size: 1.3rem;
+  }
+  .benifit p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* choose us styles*/
+.choose-us-content{
+  color:black;
+  width:80%;
+  
+  margin: auto;
+}
+.choose-us-content h1{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.choose-us-content h4{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.choose-us-content p{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+@media (max-width: 850px) {
+  .choose-us-content{
+    width:100%;
+  }
+}
+@media (max-width: 450px) {
+  .choose-us-content{
+   text-align: center;
+  }
+}
+/* credit plans styles*/
+.credit-plans-content{
+  text-align: center;
+  color: white;
+}
+.credit-plans-content h1:first-of-type {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+.credit-plans-content h4{
+  font-size: 1.5rem;
+  color: #d6d6d6;
+}
+.credit-plans-content p{
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.plan-title{
+  font-size: 2.5rem;
+  color: #d6d6d6;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+.prices-plans{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 4rem auto 2rem auto;
+
+}
+.prices-plan{
+  background-color: white;
+  color:black;
+  border-radius:20px;
+  padding: 0rem 1.5rem;
+}
+.prices-plan p{
+  font-size: 1.2rem;
+}
+@media (max-width: 980px) {
+  .prices-plans{
+   flex-direction: column;
+    width:40%;
+    margin: 4rem auto 2rem auto;
+  }  
+  .prices-plan{
+    margin: 1.5rem 0;
+  }
+}
+@media (max-width: 750px) {
+  .prices-plans{
+     width:50%;
+    }
+    .credit-plans-content h1:first-of-type {
+      font-size: 1.8rem;
+    }
+    .plan-title{
+      font-size: 2rem;
+    }
+}
+@media (max-width: 580px) {
+  .prices-plans{
+     width:60%;
+    }
+    .credit-plans-content h1:first-of-type {
+      font-size: 1.6rem;
+    }
+    .plan-title{
+      font-size: 1.8rem;
+    }
+}
+
+/* contact styles*/
+.contact-container{
+  text-align: center;
+  color: black;
+}
+.contact-container h1{
+  font-weight: bold;
+}
+.contact-form{
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.contact-form input{
+  border: none;
+  margin: 1.5rem 0;
+  background-color: #EAEAEA;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+.contact-container p{
+  font-size: 1.3rem;
+}
+.social-icon{
+  width: 1.4rem;
+}
+.contact-logo{
+  padding: 3rem 0 1rem 0;
+  margin: auto;
+}
+
+.contact-logo img{
+  width: 20rem;
+}
+@media (max-width: 950px) {
+  .contact-form{
+    width: 75%;
+  }
+}
+@media (max-width: 750px) {
+  .contact-form{
+    width: 85%;
+  }
+}
+@media (max-width: 550px) {
+  .contact-form{
+    width: 100%;
+  }
+}
