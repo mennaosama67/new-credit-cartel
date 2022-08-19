@@ -366,11 +366,7 @@ font-size: 1.3rem;
     width:100%;
   }
 }
-@media (max-width: 450px) {
-  .choose-us-content{
-   text-align: center;
-  }
-}
+
 /* credit plans styles*/
 .credit-plans-content{
   text-align: center;
