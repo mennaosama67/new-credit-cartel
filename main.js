@@ -33,6 +33,6 @@ function animate(obj, initVal, lastVal, duration) {
  let text3 = document.getElementById('0103');
  const load = () => {
     animate(text1, 0, 5, 500);
-    animate(text2, 0, 232, 7000);
-    animate(text3, 100, 25, 7000);
+    animate(text2, 0, 150, 7000);
+    animate(text3, 0, 0, 7000);
  }
