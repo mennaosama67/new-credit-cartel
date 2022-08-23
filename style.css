@@ -6,6 +6,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
+  overflow-x:hidden;
+
 }
 a,
 a:active,
@@ -476,6 +478,17 @@ font-size: 1.3rem;
 .contact-logo img{
   width: 20rem;
 }
+#webform{
+  overflow:hidden;
+}
+#frame_webform{
+width:90%;
+height:600px;
+
+}
+#formdiv.container{
+width: 93% !important;
+}
 @media (max-width: 950px) {
   .contact-form{
     width: 75%;
@@ -483,7 +496,14 @@ font-size: 1.3rem;
   .contact-logo img{
     width: 18rem;
   }
+  #frame_webform{
+    height:750px;
+    width:100%;
+    
+    }
 }
+
+
 @media (max-width: 750px) {
   .contact-form{
     width: 85%;
@@ -499,8 +519,24 @@ font-size: 1.3rem;
   .contact-logo img{
     width: 14rem;
   }
+  .embed-form.section-padding {
+    padding: 2rem 0.5rem;
+  }
+  #frame_webform{
+    height:850px;
+    width:100%;
+    
+    }
+    #formdiv.container{
+      width: 90%!important;
+    }
 }
 .embed-form {
-  width:80%;
-  margin: auto;
+  overflow-y: hidden;
+
 }
+@media (max-width: 480px){
+  #webform {
+      width:93%!important;
+  }
+  }
