@@ -478,6 +478,10 @@ font-size: 1.3rem;
 .contact-logo img{
   width: 20rem;
 }
+.embed-form {
+  overflow-y: hidden;
+
+}
 #webform{
   overflow:hidden;
 }
@@ -531,10 +535,7 @@ width: 93% !important;
       width: 90%!important;
     }
 }
-.embed-form {
-  overflow-y: hidden;
 
-}
 @media (max-width: 480px){
   #webform {
       width:93%!important;
