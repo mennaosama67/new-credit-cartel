@@ -486,7 +486,7 @@ font-size: 1.3rem;
   overflow:hidden;
 }
 #frame_webform{
-width:90%;
+width: 90% !important;;
 height:600px;
 
 }
@@ -540,4 +540,7 @@ width: 93% !important;
   #webform {
       width:93%!important;
   }
+  #frame_webform{
+    width: 90% !important;
   }
+}
