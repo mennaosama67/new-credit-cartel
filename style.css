@@ -485,7 +485,7 @@ font-size: 1.3rem;
   overflow:hidden;
 }
 #frame_webform{
-width: 90% !important;;
+width: 90% !important;
 height:600px;
 
 }
@@ -504,11 +504,14 @@ width: 93% !important;
     width:100%;
     
     }
+    .embed-form.section-padding {
+      padding: 2rem 2rem;
+    }
 }
 
 @media (max-width: 780px){
-#webform {
-    width: 97% !important;
+#document #webform {
+    width: 95% !important;
 }
 }
 @media (max-width: 750px) {
@@ -517,6 +520,9 @@ width: 93% !important;
   }
   .contact-logo img{
     width: 16rem;
+  }
+  .embed-form.section-padding {
+    padding: 2rem 1rem;
   }
 }
 @media (max-width: 550px) {
