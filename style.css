@@ -382,7 +382,7 @@ font-size: 1.3rem;
   font-size: 1.5rem;
   color: #d6d6d6;
 }
-.credit-plans-content p{
+.credit-plans-p{
   font-size: 1.4rem;
   font-weight: bold;
   padding-top: 1rem;
@@ -392,6 +392,12 @@ font-size: 1.3rem;
   color: #d6d6d6;
   font-weight: bold;
   margin-top: 3rem;
+}
+.plan-para{
+  font-size: 1rem;
+  width: 70%;
+  margin: 1rem auto;
+  font-weight: normal;
 }
 .prices-plans{
   display: flex;
@@ -439,6 +445,11 @@ font-size: 1.3rem;
     }
     .plan-title{
       font-size: 1.6rem;
+    }
+    .plan-para{
+      font-size: 1rem;
+      width: 100%;
+     
     }
 }
 
